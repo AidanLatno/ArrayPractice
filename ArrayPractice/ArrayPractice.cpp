@@ -51,8 +51,8 @@ static void ArrayRandomizer(int arr[], int size, int min, int max)
 }
 
 // This function will count from start to end and print every number.
-// If start < end, count UP (example: 2 → 6 prints 2 3 4 5 6)
-// If start > end, count DOWN (example: 6 → 2 prints 6 5 4 3 2)
+// If start < end, count UP (example: 2 -> 6 prints 2 3 4 5 6)
+// If start > end, count DOWN (example: 6 -> 2 prints 6 5 4 3 2)
 // If start == end, just print that number once.
 static void CountUpOrDown(int start, int end)
 {
